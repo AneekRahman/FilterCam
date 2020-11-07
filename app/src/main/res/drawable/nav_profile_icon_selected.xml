@@ -1,0 +1,5 @@
+<vector android:height="24dp" android:viewportHeight="535.579"
+    android:viewportWidth="535.579" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/navTabSelected" android:pathData="M368.3,529.2c0,0 69.9,-5.2 104.8,-63.4c34.9,-58.2 -69.9,-204.3 -69.9,-204.3s-58.2,63.4 -139.7,58.2c-81.5,-5.2 -116.4,-58.2 -116.4,-58.2S19,377.8 65.6,470.9S368.3,529.2 368.3,529.2z"/>
+    <path android:fillColor="@color/navTabSelected" android:pathData="M275.8,150.7m-150.7,0a150.7,150.7 0,1 1,301.4 0a150.7,150.7 0,1 1,-301.4 0"/>
+</vector>

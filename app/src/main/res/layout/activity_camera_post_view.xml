@@ -1,0 +1,74 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/postview_layout"
+    android:background="#282828"
+    tools:context=".CameraPostViewActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/video_postview_VV"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/capture_btn_stroke"
+        android:padding="10dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_refresh_icon"
+            android:background="@drawable/cam_capture_btn_bg"
+            android:padding="10dp"
+            android:id="@+id/redo_btn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/capture_btn_stroke"
+        android:padding="10dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check_icon"
+            android:background="@drawable/cam_capture_btn_bg"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="@drawable/cam_capture_btn_bg"
+        android:text="SAVE"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"
+        android:layout_marginRight="20dp"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp"
+        android:drawableLeft="@drawable/ic_save_file_icon"
+        android:id="@+id/save_btn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/filter"
+        android:text="Save Filtered"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

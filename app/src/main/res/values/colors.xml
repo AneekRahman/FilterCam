@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282828</color>
+    <color name="colorPrimaryDark">#282828</color>
+    <color name="colorAccent">#282828</color>
+
+    <!-- My Colors -->
+    <color name="layoutBgColor">#ffffff</color>
+    <color name="navBarBgColor">#ffffff</color>
+    <color name="navTabUnselected">#80ffffff</color>
+    <color name="navTabSelected">#ffffff</color>
+    <color name="navBarBorderColor">#24000000</color>
+
+    <!-- CamColors -->
+    <color name="camModeSelectedColor">#ffffff</color>
+    <color name="camModeSelected2Color">#c7c7c7</color>
+    <color name="camModeUnSelectedColor">#87000000</color>
+
+</resources>

@@ -1,0 +1,4 @@
+<vector android:height="24dp" android:viewportHeight="330.0"
+    android:viewportWidth="330.0" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/navTabSelected" android:pathData="M0.2,312.4c-0.8,4.8 0.7,9.7 4.2,13.2C7.2,328.4 11.1,330 15,330c0.9,0 1.7,-0.1 2.6,-0.2l80.4,-14C119.1,325.2 141.6,330 165,330c91,0 165,-74 165,-165S256,0 165,0C74,0 0,74 0,165c0,23.4 4.8,45.9 14.2,67.1L0.2,312.4z"/>
+</vector>
